@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="form">
+                <H2>Personal Details</H2>
+                <div class="col50">
+                    <label>First Name: </label>
+                    <input type="text" placeholder="First Name" id="first_name">
+                    <label>Address: </label>
+                    <input type="text" placeholder="Address" id="address">
+                    <label>Blood Group:</label>
+                    <select name="Blood Group" id="blood_group">
+                        <option value="A+ve">A+ve</option>
+                        <option value="A-ve">A-ve</option>
+                        <option value="B+ve">B+ve</option>
+                        <option value="B-ve">B-ve</option>
+                        <option value="AB+ve">AB+ve</option>
+                        <option value="AB-ve">AB-ve</option>
+                        <option value="O+ve">O+ve</option>
+                        <option value="O-ve">O-ve</option>
+                    </select>
+                </div>
+                <div class="col50">
+                    <label>Last Name: </label>
+                    <input type="text" placeholder="Last Name" id="last_name">
+                    <label>Date of Birth: </label>
+                    <input type="date" placeholder="DOB" id="dob">
+                    <label>Place of Birth: </label>
+                    <input type="text" placeholder="Place of Birth" id="pob">
+                </div>
+                <div class="sub">
+                    <button onclick="display()" class="btn">Submit</button>
+                </div>
+            </div>
+            <div id="infor"></div>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

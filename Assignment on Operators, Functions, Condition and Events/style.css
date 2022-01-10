@@ -1,0 +1,37 @@
+.container{
+    background-image: url("Java img.jpg");
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+.inpt{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    margin-top: 20px;
+}
+#input{
+    width: 60%;
+    text-align: center;
+    height: 30px;
+    color: tomato;
+    font-size: 20px;
+    font-weight: 900;
+}
+#btn{
+    width: 40%;
+    height: 30px;
+    border: none;
+    background-color: rgb(252, 95, 38);
+}
+.bor_rad{
+    border-radius: 10px;
+}
+.no_bor{
+    border: 2px gray solid;
+    outline: none;
+}

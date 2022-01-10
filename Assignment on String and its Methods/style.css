@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    background-color:whitesmoke;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 200px;
+}
+.col50{
+    width: 50%;
+    float: left;
+}
+#first_name, #last_name, label{
+    width: 70%;
+    margin: 5px 0px 5px 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.sub{
+    width: 100%;
+    text-align:center;
+}
+.btn{
+    margin: 20px 0px 20px 0px;
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color:lightgreen;
+}
+h2{
+    text-align: center;
+}
+#infor{
+    margin: 10px 0px 10px 30px;
+}

@@ -1,11 +1,12 @@
 Grocery = 20;
 Ice_Cream = 15;
 function check() {
-    var a = document.getElementById("input").value;
-    if (a >= (Grocery + Ice_Cream)) {
-        alert("Grocery + Ice Cream (Amount Left = " + parseInt(a - (Grocery + Ice_Cream)) + ")");
+    var check = document.getElementById("input").value;
+    var amt_left = check - (Grocery + Ice_Cream);
+    if (check >= (Grocery + Ice_Cream)) {
+        alert("Grocery + Ice Cream (Amount Left = " + parseInt(amt_left) + ")");
     }
-    else if (a >= Grocery) {
+    else if (check >= Grocery) {
         alert("Grocery");
     }
     else {

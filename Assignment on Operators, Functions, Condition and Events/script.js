@@ -1,5 +1,5 @@
-Grocery = 20;
-Ice_Cream = 15;
+var Grocery = 20;
+var Ice_Cream = 15;
 function check() {
     var check = document.getElementById("input").value;
     var amt_left = check - (Grocery + Ice_Cream);

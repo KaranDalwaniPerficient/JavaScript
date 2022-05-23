@@ -23,3 +23,7 @@ document.getElementById("mod").onclick = () =>
 {
     result.value = parseInt(num1.value) % parseInt(num2.value);
 }
+document.getElementById("multiplication").onclick = () =>
+{
+    result.value = parseInt(num1.value) * parseInt(num2.value);
+}
